@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.websystique.springmvc.dao.EmployeeDaoImplTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="findEmployeeBySsn"/>
+          <include name="findAllEmployees"/>
+          <include name="setUp"/>
+          <include name="findById"/>
+          <include name="saveEmployee"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="deleteEmployeeByInvalidSsn"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="deleteEmployeeBySsn"/>
+        </methods>
+      </class> <!-- com.websystique.springmvc.dao.EmployeeDaoImplTest -->
+      <class name="com.websystique.springmvc.service.EmployeeServiceImplTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.websystique.springmvc.service.EmployeeServiceImplTest -->
+      <class name="com.websystique.springmvc.controller.AppControllerTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.websystique.springmvc.controller.AppControllerTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
